@@ -1,0 +1,54 @@
+.todo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1em;
+  width: 80vw;
+  max-width: 400px;
+}
+.todoBuilderContainer {
+  width: 100%;
+  display: flex;
+}
+.builderTextBox {
+  width: 100%;
+}
+.button {
+  margin-left: auto;
+}
+.listContainer {
+  width: 100%;
+}
+.todoList {
+  list-style: none;
+  margin-block-start: 0px;
+  padding-inline-start: 0px;
+}
+.todoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 10px;
+  margin-top: 0.5em;
+}
+.todoText {
+  text-decoration-line: none;
+}
+.completedTodoText {
+  text-decoration-line: line-through;
+}
+.textBox {
+  margin: 0;
+  max-width: 60%;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
